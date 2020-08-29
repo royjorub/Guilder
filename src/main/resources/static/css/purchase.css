@@ -1,0 +1,53 @@
+*{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=number]{
+    width: 160px;
+} 
+
+.wrapper{
+    height: 850px;
+    width: 800px;
+    background-image: url("purchase.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.gold{
+    margin-top: 20px;
+    margin-left: 605px;
+}
+
+.coin{
+    margin-top: 10px;
+    margin-left: 605px;
+}
+
+.purchase{
+    margin-top: 95px;
+    margin-left: 350px;
+}
+
+button{
+    margin-top: 68px;
+}

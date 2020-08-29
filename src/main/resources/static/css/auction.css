@@ -1,0 +1,48 @@
+*{
+    font-weight: bold;
+}
+.wrapper{
+    height: 900px;
+    width: 850px;
+    background-image: url("auction.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.auctions{
+    font-size: 18px;
+    color: white;
+    text-shadow: 
+    -1px 1px 0 navy, 
+    1px 1px 0 navy, 
+    1px -1px 0 navy, 
+    -1px -1px 0 navy;
+    color: white;
+}
+.auctions a{
+	color: white;
+}
+
+.scroller {
+    height: 240px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}

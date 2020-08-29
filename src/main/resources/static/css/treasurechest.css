@@ -1,0 +1,86 @@
+*{
+    font-size: 30px;
+    text-shadow: 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px -1px 0 #000;
+    color: white;
+}
+
+.wrapper{
+    height: 850px;
+    width: 800px;
+    background-image: url("treasurechest.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.gold{
+
+    color: white;
+    margin-left: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.goldSpot{
+
+}
+.goldVal{
+    margin-left: 50px;
+}
+
+.purchase{
+    margin-top: 90px;
+    margin-left: 680px;
+}
+.order{
+    margin-left: 20px;
+}
+
+.send{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.welcome{
+    margin-top: 90px;
+    margin-left: 405px;
+    display: flex;
+    flex-direction: column;
+}
+.user{
+    margin-left: 20px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: 240px;
+    margin-left: 110px;
+}
+.auction{
+    
+}
+
+.userGold{
+    color: white;
+    margin-left: 240px;
+}

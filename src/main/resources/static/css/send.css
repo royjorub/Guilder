@@ -1,0 +1,44 @@
+*{
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.wrapper{
+    height: 850px;
+    width: 800px;
+    background-image: url("send.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.towhom{
+    margin-top: 28px;
+    margin-left: 325px;
+}
+
+.sendto{
+    margin-top: 50px;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 40px;
+}
