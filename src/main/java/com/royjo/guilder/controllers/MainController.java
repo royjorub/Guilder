@@ -81,19 +81,16 @@ public class MainController {
     	if (session.getAttribute("user_id")==null) {
     		return "redirect:/";
     	}
-//    	try {
-//			JSONObject obj = apiServ.getGold();
-//			double goldValuePreFormat = (1 / (double)(obj.getJSONObject("rates").get("XAU")));
-//			Double goldValueFormatted = new Double(goldValuePreFormat);
-//			int goldValue = goldValueFormatted.intValue();
-//			session.setAttribute("goldValue", goldValue);
-//		} catch (Exception e) {
-//			System.out.println(e);
-//			
-//		}
-    	int apiGoldValue = apiServ.getGoldValue();
-    	session.setAttribute("goldValue", apiGoldValue);
-    	
+   	try {
+			JSONObject obj = apiServ.getGold();
+			double goldValuePreFormat = (1 / (double)(obj.getJSONObject("rates").get("XAU")));
+			Double goldValueFormatted = new Double(goldValuePreFormat);
+			int goldValue = goldValueFormatted.intValue();
+			session.setAttribute("goldValue", goldValue);
+		} catch (Exception e) {
+			System.out.println(e);
+			
+		}
     	Long uid = (Long) session.getAttribute("user_id");
     	User user = userServ.findUserById(uid);
     	int goldValue = (int) session.getAttribute("goldValue");
